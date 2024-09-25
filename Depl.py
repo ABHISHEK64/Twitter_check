@@ -57,5 +57,3 @@ if search_term:
     st.write(f'Sources of Tweets containing "{search_term}":')
     st.write(source_data)
     st.bar_chart(source_data.set_index('Source'))
-else:
-	st.image(r'C:\Users\abhis\OneDrive\Documents\Twitter_cast\OIP-removebg-preview.png')
